@@ -85,7 +85,7 @@ int main()
 	printf("To exit press :0\n");
 	scanf("%d", &start_again); 
 	switch (start_again)
-	{E:\website\bootstrap in one\dsu.c
+	{
 	case 0:
 		exit(0);
 		break;
