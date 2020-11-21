@@ -18,7 +18,7 @@ int main()
 			scanf("%d", &cost[i][j]); // taking the distance between each vertex
 			if (cost[i][j] == 0) // checking if the user enter 0 as distance 
 			{
-				cost[i][j] == INFINITY; // making the 0 distance as INFINITY
+				cost[i][j] = INFINITY; // making the 0 distance as INFINITY
 			}
 		}
 	}
