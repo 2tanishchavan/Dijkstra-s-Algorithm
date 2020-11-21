@@ -70,6 +70,7 @@ int main()
 			}
 		}
 	}
+	
 	// printing the shortest path discovered 
 	printf("\nShortest Paths: \n");
 	for (int i = 1; i <= totver; i++)
@@ -79,6 +80,7 @@ int main()
 			printf("\t%d->%d = %d\n", source_ver, i, dist[i]);
 		}
 	}
+	
 	// check's weather the user what to try with diffrent source vertex
 	switch_invalid:
 	printf("\nIf you want find shortest path from other source vertex than press :1\n");
